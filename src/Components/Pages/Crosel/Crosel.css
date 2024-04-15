@@ -1,0 +1,15 @@
+/* Desktop View
+@media (min-width: 768px) {
+    .carousel .slide {
+        width: 100%;
+        overflow-x: hidden; 
+        white-space: nowrap;
+    }
+}
+@media (max-width: 767px) {
+    .carousel-item{
+        width: 100%;
+        overflow-x: hidden; 
+        white-space: nowrap;
+    }
+} */

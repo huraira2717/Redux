@@ -1,8 +1,7 @@
 import React, { useContext } from 'react'
 import myContext from '../Context/ContectData'
 import { useDispatch } from 'react-redux'
-
-
+import './Update.css'
 function Update() {
     const cotext = useContext(myContext)
     const {product , setProduct , UpdateProduct}=cotext

@@ -13,7 +13,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="navbar">
+    <nav className="navbar w-[95%] m-0 p-0 sm:w-[100%]">
       <div className="navbar__logo">
         <Link to="/">
           <img src="https://staging.daraz.com/wp-content/uploads/2021/11/daraz-logo.png" alt="Logo" />
@@ -34,8 +34,7 @@ const Navbar = () => {
         <Link to={'/'}>
           <button>Login</button>
         </Link>
-        <Link to={'/cart'} className='flex cursor-pointer bg-orange-400 h-8 justify-center items-center text-center p-2 rounded-sm'>
-          Items <BsFillCartFill className='mx-2' /> {items.length}
+        <Link to={'/cart'} className='btn flex cursor-pointer bg-orange-400 h-8 justify-center items-center text-center p-2 mr-2 rounded-sm'>Items <BsFillCartFill className='mx-2' />{items.length}
         </Link>
       </div>
     </nav>
